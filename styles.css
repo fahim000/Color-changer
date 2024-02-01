@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* or any other height */
+}
+
+#colorCode {
+  margin-bottom: 10px; /* Add space between the text and the button */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
